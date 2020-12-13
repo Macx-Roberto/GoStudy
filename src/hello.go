@@ -8,9 +8,8 @@ import (
 
 func main() {
 	exibeMenu()
-	comando := leComando()
 
-	switch comando {
+	switch leComando {
 	case 1:
 		iniciarMonitoramento()
 	case 2:
@@ -40,8 +39,8 @@ func leComando() int {
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
-	site := "https://www.alura.com.br"
+	site := "https://www.soudcloud.com.br"
 	resp, _ := http.Get(site)
 	fmt.Println(resp)
-	// _ serve para ignporar um dos retornos da funcao
+	// '_' serve para ignporar um dos retornos da funcao
 }
