@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	for {
 	exibeMenu()
 
 	switch leComando {
