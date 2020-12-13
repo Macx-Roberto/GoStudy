@@ -1,2 +1,2 @@
 # GoStrudy
-repository de estudo linguagem go
+repositorio de estudo linguagem go
